@@ -24,22 +24,35 @@ Por mais que existam muitos conceitos, esse é o objetivo principal. O que muda 
 ## Conhecimentos necessários :
 
 •	Fundamentos de modelos ágeis e Scrum
+
 •	Planejamento e execução de projeto ágil
+
 •	Fundamentos de Gestão de Projetos
+
 •	Diagramas da UML
+
 •	Banco de Dados não Relacional
+
 •	Fundamentos de IHC
+
 •	Figma
+
 •	Linguagens HTML e CSS
+
 •	Linguagem PHP
 
 ## Premissas e Restrições : 
 
 •	O trabalho será desenvolvido em grupos de até 5 alunos.
+
 •	Cada grupo deve escolher um dos temas propostos.
+
 •	O trabalho será desenvolvido preferencialmente nas aulas da disciplina de Gestão Ágil de Projetos.
+
 •	O projeto deve contemplar as disciplinas envolvidas no PI-3 (Gestão ágil de projetos, IHC, Banco de dados não relacional, Desenvolvimento Web).
+
 •	A solução deve envolver consumo de APIs e deve fazer uso de banco de dados não relacional.
+
 •	A solução proposta no PI-3 será usada também no PI-4 e, portanto, deve ter espaço para futuramente envolver conceitos e técnicas de IOT (Internet das Coisas e Aplicações).
 
 
