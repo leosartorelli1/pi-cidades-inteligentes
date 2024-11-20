@@ -132,6 +132,12 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         .login input[type="submit"]:hover {
             background-color: #555;
         }
+
+        .erro {
+            color: #ffcc00; /* Cor amarela suave, que contrasta bem com o vermelho */
+            text-align: center;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -142,12 +148,12 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         <label for="senha">Senha:</label>
         <input type="password" name="senha" required>
         <input type="submit" value="Entrar">
+        
+        <?php
+        if (isset($erro)) {
+            echo "<p class='erro'>$erro</p>"; // Exibe a mensagem de erro abaixo do botão
+        }
+        ?>
     </form>
-
-    <?php
-    if (isset($erro)) {
-        echo "<p style='color:red; text-align: center;'>$erro</p>";
-    }
-    ?>
 </body>
 </html>
