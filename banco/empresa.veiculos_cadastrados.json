@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67377efa62efcf5ed45a39b7"
+  },
+  "placa": "fuv-9334",
+  "motorista": "marcio berenicio",
+  "monitora": "gisele danta",
+  "numero_van": "1"
+},
+{
+  "_id": {
+    "$oid": "67377fa962efcf5ed45a39b8"
+  },
+  "placa": "pqr-5862",
+  "motorista": "léo sartorelli",
+  "monitora": "camila fernandes",
+  "numero_van": "2"
+},
+{
+  "_id": {
+    "$oid": "673910d4153fe999740f9c75"
+  },
+  "numero_van": "3",
+  "placa": "ptq-9658",
+  "motorista": "téo carlos",
+  "monitora": "gabriela pereira"
+},
+{
+  "_id": {
+    "$oid": "673910df153fe999740f9c76"
+  },
+  "numero_van": "4",
+  "placa": "fgts-8974",
+  "motorista": "carlos benedito",
+  "monitora": "camila fernandes"
+}]
