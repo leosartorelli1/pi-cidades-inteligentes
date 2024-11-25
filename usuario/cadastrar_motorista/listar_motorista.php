@@ -4,10 +4,6 @@ require '../../connection.php';
 $query = new MongoDB\Driver\Query([]);
 
 $cursor = $manager->executeQuery('empresa.cadastro_motorista', $query); 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7896834 (Front-End)
 ?>
 
 <!DOCTYPE html>
