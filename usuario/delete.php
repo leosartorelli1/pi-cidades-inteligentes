@@ -11,6 +11,13 @@ if (isset($_GET['id'])) {
     // Executar a exclusão
     $manager->executeBulkWrite('empresa.veiculos_cadastrados', $bulk);
 
+<<<<<<< HEAD
     echo "Veiculo deletado com sucesso!";
 }
+=======
+    header('Location: index.php');
+}
+    
+exit;
+>>>>>>> 7896834 (Front-End)
 ?>

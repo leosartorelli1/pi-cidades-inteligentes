@@ -1,26 +1,7 @@
 <?php
-session_start();
-
-require '../../connection.php'; 
-
-if (!isset($_SESSION['nome'])) {
-    header("Location: login.php");
-    exit();
-}
+require '../../connection.php';
 ?>
-
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index motorista</title>
-</head>
-<body>
-<h1>Bem-vindo, <?php echo $_SESSION['nome']; ?>!</h1>
-<a href="logout_motorista.php">Logout</a>
-=======
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -41,23 +22,20 @@ if (!isset($_SESSION['nome'])) {
     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
         <ul class="nav nav-pills"> 
             <li class="nav-item">
-                <a class="nav-link  active" href="#">Home</a>
+                <a class="nav-link" href="index_pais.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Notificações Recebidas</a>
+                <a class="nav-link active" href="#">Notificações Recebidas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Enviar Notificações</a>
+                <a class="nav-link" href="enviar_notificacao.php">Enviar Notificações</a>
             </li>
         </ul>
     </div>
 </nav>
-<div class="container my-4">
-<h1><?php echo $_SESSION['nome']; ?>!</h1>
-</div>
+
 <footer class="bg-dark text-white text-center py-3 mt-auto">
         © 2024 Gerenciamento de Vans. Todos os direitos reservados.
     </footer>
->>>>>>> 7896834 (Front-End)
 </body>
 </html>
