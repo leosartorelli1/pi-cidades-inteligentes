@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "67391403153fe999740f9c77"
+  },
+  "nome": "carlos santos",
+  "cpf": "135.971.586-09",
+  "idade": "4 anos",
+  "pai": "Roberto carlos",
+  "cpf_pai": "598632548705",
+  "mae": "laura candido",
+  "cpf_mae": "89652345812",
+  "cep": "13974030",
+  "cidade": "Itapira",
+  "rua": "Rua Vereador João Manoel Galdi",
+  "numero_casa": "65",
+  "bairro": "Santa Cruz",
+  "estado": "SP",
+  "turno_aula": "tarde",
+  "horario_entrada": "07:00",
+  "horario_saida": "12:15",
+  "escola": "Pedro Ferreira",
+  "numero_van": "3",
+  "senha": "123456",
+  "email": "carlos@gmail.com"
+}]
