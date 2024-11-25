@@ -63,6 +63,34 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<h1>Editar Passageiro</h1>
+<form method="POST">
+    Nome: <input type="text" name="nome" value="<?= $document->nome ?>"><br>
+    CPF: <input type="text" name="cpf" value="<?= $document->cpf ?>"><br>
+    Idade: <input type="text" name="idade" value="<?= $document->idade ?>"><br>
+    Nome do Pai: <input type="text" name="pai" value="<?= $document->pai ?>"><br>
+    CPF do Pai: <input type="text" name="cpf_pai" value="<?= $document->cpf_pai ?>"><br>
+    Nome da Mãe: <input type="text" name="mae" value="<?= $document->mae ?>"><br>
+    CPF da Mãe: <input type="text" name="cpf_mae" value="<?= $document->cpf_mae ?>"><br>
+    Cep: <input type="text" name="cep" value="<?= $document->cep ?>"><br>
+    Cidade: <input type="text" name="cidade" value="<?= $document->cidade ?>"><br>
+    Rua: <input type="text" name="rua" value="<?= $document->rua ?>"><br>
+    Número da casa: <input type="text" name="numero_casa" value="<?= $document->numero_casa ?>"><br>
+    Bairro: <input type="text" name="bairro" value="<?= $document->bairro ?>"><br>
+    Estado: <input type="text" name="estado" value="<?= $document->estado ?>"><br>
+     Turno: <input type="text" name="turno_aula" value="<?= $document->turno_aula ?>"><br>
+    Horário de Entrada: <input type="text" name="horario_entrada" value="<?= $document->horario_entrada ?>"><br>
+    Horário de Saída: <input type="text" name="horario_saida" value="<?= $document->horario_saida ?>"><br>
+    Escola: <input type="text" name="escola" value="<?= $document->escola ?>"><br>
+    Número da Van: <input type="text" name="numero_van" value="<?= $document->numero_van ?>"><br>
+    <input type="submit" value="Salvar">
+</form>
+=======
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -202,4 +230,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </body>
 </html>
 
+<<<<<<< HEAD
+=======
+>>>>>>> 7896834 (Front-End)
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 

@@ -71,6 +71,97 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Cor de fundo suave */
+        }
+
+        .login {
+            background-color: #ff4d4d; /* Vermelho suave */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            width: 350px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        }
+
+        .login h1 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .login label {
+            align-self: flex-start;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .login input[type="email"], .login input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .erro {
+            color: #ffcc00; /* Cor amarela suave, que contrasta bem com o vermelho */
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form class="login" action="login.php" method="post">
+        <h1>Login</h1>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" required>
+        <input type="submit" value="Entrar">
+        
+        <?php
+        if (isset($erro)) {
+            echo "<p class='erro'>$erro</p>"; // Exibe a mensagem de erro abaixo do botão
+        }
+        ?>
+    </form>
+</body>
+</html>
+=======
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -166,4 +257,9 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     </div>
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 7896834 (Front-End)
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97

@@ -31,6 +31,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Location: index.php');
 }
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<form action="update.php" method="post">
+    <input type="hidden" name="id" value="<?= $veiculos->_id ?>">
+    Número da van: <input type="text" name="numero_van" value="<?= $veiculos->numero_van ?>"><br>
+    Placa: <input type="text" name="placa" value="<?= $veiculos->placa ?>"><br>
+    Motorista: <input type="text" name="motorista" value="<?= $veiculos->motorista ?>"><br>
+    Monitora: <input type="text" name="monitora" value="<?= $veiculos->monitora ?>"><br>
+    <input type="submit" value="Atualizar Informações do Veiculo">
+</form>
+=======
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,3 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 </body>
 </html>
+<<<<<<< HEAD
+=======
+>>>>>>> 7896834 (Front-End)
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97

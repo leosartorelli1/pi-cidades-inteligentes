@@ -38,6 +38,19 @@ foreach ($cursor_crianca as $crianca) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index - Página do Usuário</title>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</head>
+<body>
+
+<h1>Bem-vindo, <?php echo $_SESSION['nome']; ?>!</h1>
+
+<h2>Crianças e suas Vans</h2>
+<table border="1">
+    <thead>
+=======
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
@@ -72,6 +85,10 @@ foreach ($cursor_crianca as $crianca) {
 <div class="table-responsive">
 <table class="table table-striped">
     <thead  class="thead-dark">
+<<<<<<< HEAD
+=======
+>>>>>>> 7896834 (Front-End)
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
         <tr>
             <th>Nome da Criança</th>
             <th>Van</th>
@@ -86,10 +103,22 @@ foreach ($cursor_crianca as $crianca) {
         <?php endforeach; ?>
     </tbody>
 </table>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<a href="logout_pais.php">Logout</a>
+
+=======
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 </div>
         </div>
         <footer class="bg-dark text-white text-center py-3 mt-auto">
         © 2024 Gerenciamento de Vans. Todos os direitos reservados.
     </footer>
+<<<<<<< HEAD
+=======
+>>>>>>> 7896834 (Front-End)
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 </body>
 </html>

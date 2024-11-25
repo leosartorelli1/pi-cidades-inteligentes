@@ -10,6 +10,20 @@ if (!isset($_SESSION['nome'])) {
 ?>
 
 <!DOCTYPE html>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index motorista</title>
+</head>
+<body>
+<h1>Bem-vindo, <?php echo $_SESSION['nome']; ?>!</h1>
+<a href="logout_motorista.php">Logout</a>
+=======
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -47,5 +61,9 @@ if (!isset($_SESSION['nome'])) {
 <footer class="bg-dark text-white text-center py-3 mt-auto">
         © 2024 Gerenciamento de Vans. Todos os direitos reservados.
     </footer>
+<<<<<<< HEAD
+=======
+>>>>>>> 7896834 (Front-End)
+>>>>>>> e0c1cacc24072453bfd7a7f7223996038cffcc97
 </body>
 </html>
